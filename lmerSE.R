@@ -1,4 +1,4 @@
-lmerSE <- function(Y,Z){
+lmerCI <- function(Y,Z){
   frame <- matrix(nrow = nrow(Y), ncol = 2*ncol(Z))
   for(j in 1:ncol(Y)){
     for(i in 1:nrow(Z)){
